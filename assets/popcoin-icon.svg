@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="coinFace" cx="40%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#FFC589"></stop>
+      <stop offset="55%" stop-color="#F26B1A"></stop>
+      <stop offset="100%" stop-color="#B23E14"></stop>
+    </radialGradient>
+    <radialGradient id="coinHighlight" cx="35%" cy="30%" r="35%">
+      <stop offset="0%" stop-color="#FFF1DC" stop-opacity="0.95"></stop>
+      <stop offset="100%" stop-color="#FFF1DC" stop-opacity="0"></stop>
+    </radialGradient>
+    <linearGradient id="coinRim" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F4B43A"></stop>
+      <stop offset="100%" stop-color="#C68A1F"></stop>
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="92" fill="url(#coinRim)"></circle>
+  <circle cx="100" cy="100" r="82" fill="url(#coinFace)"></circle>
+  <circle cx="100" cy="100" r="82" fill="url(#coinHighlight)"></circle>
+  <text x="100" y="135" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-weight="900" font-size="110" fill="#FFF6E8">P</text>
+</svg>
